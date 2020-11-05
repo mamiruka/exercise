@@ -1,10 +1,9 @@
 @import "nullstyle.scss";
 
 body {
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: "Open Sans	FONT-FAMILY: "oPEN sANS", hELVETICA, aRIAL, SANS-SERIF;
+", Helvetica, Arial, sans-serif;
 }
-
-.body {}
 .header {
 	display: flex;
 	justify-content: center;
@@ -54,7 +53,6 @@ body {
 	align-items: center;
 	height: 750px;
 	background: rgba(250, 210, 0, 0.6);
-	&__image{}
 	&__title {
 		text-align: center;
 		height: 22px;
@@ -134,7 +132,6 @@ ul li {
 		align-items: center;
 		margin: 40px 0 40px 0;
 	}
-	&__icon {}
 	&__title {
 		font-size: 15px;
 	}
