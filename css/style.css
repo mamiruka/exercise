@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+}
+
+.header__title {
+  margin: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 7px;
+  line-height: 28px;
+  color: #afb42b;
+  width: 488px;
+}
+
+.header__tel {
+  background-color: #a5c33c;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  height: 60px;
+  line-height: 20px;
+  text-align: center;
+  width: 250px;
+  padding: 12px 40px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.header__tel:hover {
+  background-color: #C1D57B;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.nav__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-blend-mode: overlay;
+  background: rgba(0, 0, 20, 0.3) url(../img/trees.jpg) center/100% no-repeat;
+  height: 830px;
+}
+
+.item-help {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 750px;
+  background: rgba(250, 210, 0, 0.6);
+}
+
+.item-help__title {
+  text-align: center;
+  height: 22px;
+  width: 208px;
+  margin: 40px 0 20px 0;
+}
+
+.item-help__list {
+  color: #333F;
+  width: 215px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 0 0;
+}
+
+.item-help__tel {
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #999999;
+  margin: 15px 0 0 0;
+  padding: 10px 50px;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.item-help__tel:hover {
+  background-color: #BFBFBF;
+}
+
+ul li {
+  list-style: disc;
+}
+
+.item-help__image img {
+  width: 350px;
+  height: 350px / 1.6;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.item-nav {
+  margin: 60px 0 0 0;
+}
+
+.item-nav__title {
+  margin: 0 0 20px 30px;
+}
+
+.item-nav__subtitle {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 20px 30px;
+}
+
+.item-nav__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 740px;
+}
+
+.item-nav__fcolumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 0 0 30px;
+}
+
+.item-nav__scolumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 0 0 30px;
+}
+
+.item-nav__column {
+  color: #fff;
+  font-weight: bold;
+}
+
+.column__string {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px 0 40px 0;
+}
+
+.column__title {
+  font-size: 15px;
+}
+
+.column__text {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 33px 0 0;
+}
